@@ -84,7 +84,7 @@ section {
 }*/
 
 footer{
-  min-height: 25rem;
+  min-height: 5rem;
   background:gray;
  
 }
@@ -102,7 +102,7 @@ Modules
 */
 
 .banner{
-  background:url("../img/lucid.jpg") no-repeat 0 0 fixed;
+  background:url("../img/lucid2.jpg") no-repeat 40px -9.375rem fixed;
   background-size:cover;
   color: white;
   height: 25rem;
