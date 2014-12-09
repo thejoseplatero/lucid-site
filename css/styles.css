@@ -4,17 +4,39 @@ Base
 ==============================================
 */
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body{
-  background: #FFF;
+  background: #E2E2E2;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.2;
   -webkit-font-smoothing:antialiased;
+  line-height: 1.2;
+
 
 }
 
 a {
   color:#fff;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+  margin: 0;
 }
 
 h1{
@@ -44,21 +66,27 @@ Layout
 
 
 .main-container{
-  width: 90%;
-  margin:0 auto;
+   margin:0 auto;
+   width: 90%;
+
 }
 section {
-  background: blue; /* temp, not layout*/ 
+  background: white;
+  border-radius: 0.25rem;
   min-height: 12.5rem;
+  padding:1.25rem;
+  position: relative;
+  
 }
 
-section:nth-child(even){
-  background:yellow;  /* temp, not layout*/ 
-}
+/*section:nth-child(even){
+
+}*/
 
 footer{
-  background:gray;
   min-height: 25rem;
+  background:gray;
+ 
 }
 
 section, footer, .main-container{
@@ -74,10 +102,38 @@ Modules
 */
 
 .banner{
-  background:url("../img/bg-banner.jpg") no-repeat 0 0 fixed;
+  background:url("../img/lucid.jpg") no-repeat 0 0 fixed;
   background-size:cover;
-  height: 25rem;
   color: white;
+  height: 25rem;
+  
+}
+
+.items{
+  padding:0;
+}
+.item{
+  border-left: 6px solid #E5FFD4;
+  margin-bottom: 1.25rem;
+  padding:0.625rem;
+  width: 100%;
+
+}
+
+.item__title{
+  color:#8bc349;
+  
+}
+
+.item__date{
+ color:#B6B6B6;
+
+}
+
+.item__detail{
+  margin: 0;
+  padding-top: 0.625rem;
+
 }
 
 .logo{
@@ -92,7 +148,44 @@ Modules
   text-align: center;
 }
 
+.section__heading{
+  background:gray;
+  color:white;
+  display: inline-block;
+  font-size: 21px;
+  min-width: 100px;
+  padding:10px; 
+  position: relative; 
+  left:-40px;
+  top:-20px;
+}
 
+
+.section__heading:before, #top-bar:after {
+    bottom: -24px;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -10;
+}
+
+.section__heading:before {
+    border-color: transparent #444 transparent transparent;
+    border-style: solid;
+    border-width: 0 22px 25px 0;
+    height: 0;
+    left: -1px;
+    width: 0;
+}
+
+.section__heading:after {
+    border-color: #444 transparent transparent;
+    border-style: solid;
+    border-width: 25px 22px 0 0;
+    height: 0;
+    right: -1px;
+    width: 0;
+}
 /*
 ==============================================
 States
