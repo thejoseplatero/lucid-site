@@ -58,6 +58,10 @@ p{
  margin: 0 0 1em; 
 }
 
+a{
+   color:#8bc349;
+}
+
 
 .uppercase{
   text-transform: uppercase;
@@ -237,7 +241,7 @@ States
 ==============================================
 */
 
-.fa:hover, .item__image:hover{
+.fa:hover, .item__image:hover, a:hover{
  opacity:.6;
 }
 
