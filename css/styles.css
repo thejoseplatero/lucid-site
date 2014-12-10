@@ -155,6 +155,7 @@ Modules
 .logo__subheadline{
   color:#B6B6B6;
   text-shadow: 2px 4px 3px rgba(139,195,73,0.3);
+  margin:0.3125rem 0;
 }
 
 .fa{
