@@ -68,8 +68,13 @@ Layout
 .main-container{
    margin:0 auto;
    width: 90%;
-
 }
+
+.ctas{
+  margin: 0 auto;
+  text-align: center;
+}
+
 section {
   background: white;
   border-radius: 0.25rem;
@@ -79,9 +84,6 @@ section {
   
 }
 
-/*section:nth-child(even){
-
-}*/
 
 footer{
   min-height: 5rem;
@@ -94,6 +96,8 @@ section, footer, .main-container{
 
 
 
+
+
 /*
 ==============================================
 Modules
@@ -101,12 +105,13 @@ Modules
 */
 
 .banner{
-  background:url("../img/lucid5.jpg") no-repeat 40px -9.375rem fixed;
+  background:url("../img/lucid-banner.jpg") no-repeat center -5rem  fixed;
   background-size:cover;
   color: white;
   height: 25rem;
-  
 }
+
+
 
 
 .items{
@@ -136,20 +141,30 @@ Modules
 
 }
 
-.logo{
 
-}
-.logo__headline{
-  padding-top:12.5rem;
-}
 .logo__headline, 
 .logo__subheadline{
   margin:0 auto;
   text-align: center;
 }
 
+.logo__headline{
+  color:#8bc349;
+  text-shadow: 2px 4px 3px rgba(139,195,73,0.3);
+}
+
+.logo__subheadline{
+  color:#B6B6B6;
+  text-shadow: 2px 4px 3px rgba(139,195,73,0.3);
+}
+
+.fa{
+ color:#8bc349;
+
+}
+
 .section__heading{
-  background:gray;
+  background:#8bc349;
   color:white;
   display: inline-block;
   font-size: 21px;
@@ -159,6 +174,9 @@ Modules
   left:-40px;
   top:-20px;
 }
+
+
+
 
 
 .section__heading:before, #top-bar:after {
@@ -194,10 +212,19 @@ Modules
   padding-top:1.875rem;
 }
 
+.item__image{
+  max-width: 100%;
+  height:auto;
+}
+
 
 /*
 ==============================================
 States
 ==============================================
 */
+
+.fa:hover, .item__image:hover{
+ opacity:.6;
+}
 
