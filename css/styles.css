@@ -22,6 +22,7 @@ body{
   background: #E2E2E2;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility; 
   line-height: 1.2;
 
 
@@ -53,7 +54,10 @@ h3{
 
 p{
  font-size: 1.3125rem;
+ line-height: 1.5;
+ margin: 0 0 1em; 
 }
+
 
 .uppercase{
   text-transform: uppercase;
