@@ -168,11 +168,12 @@ Modules
   color:white;
   display: inline-block;
   font-size: 21px;
+  left:-40px;
+  top:-20px;
   min-width: 100px;
   padding:10px; 
   position: relative; 
-  left:-40px;
-  top:-20px;
+  
 }
 
 
@@ -208,13 +209,14 @@ Modules
 .copyright{
   color:white;
   font-size: 1rem;
-  text-align: center;
   padding-top:1.875rem;
+  text-align: center;
+  
 }
 
 .item__image{
-  max-width: 100%;
   height:auto;
+  max-width: 100%;
 }
 
 
