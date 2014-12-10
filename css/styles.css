@@ -86,7 +86,6 @@ section {
 footer{
   min-height: 5rem;
   background:gray;
- 
 }
 
 section, footer, .main-container{
@@ -108,6 +107,7 @@ Modules
   height: 25rem;
   
 }
+
 
 .items{
   padding:0;
@@ -186,6 +186,15 @@ Modules
     right: -1px;
     width: 0;
 }
+
+.copyright{
+  color:white;
+  font-size: 1rem;
+  text-align: center;
+  padding-top:1.875rem;
+}
+
+
 /*
 ==============================================
 States
