@@ -24,9 +24,6 @@ body{
   -webkit-font-smoothing:antialiased;
   text-rendering: optimizeLegibility; 
   line-height: 1.2;
-
-
-
 }
 
 a {
@@ -122,14 +119,11 @@ Modules
 */
 
 .banner{
-  background:url("../img/lucid-banner.jpg") no-repeat center -5rem  fixed;
+  background:url("../img/lucid-banner.jpg") no-repeat center -2rem  fixed;
   background-size:cover;
   color: white;
-  height: 25rem;
+  min-height: 20rem;
 }
-
-
-
 
 .items{
   padding:0;
