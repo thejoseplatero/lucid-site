@@ -119,11 +119,11 @@ Modules
 */
 
 .banner{
-  background:url("../img/lucid-banner.jpg") no-repeat center center  fixed;
+  background:url("../img/lucid-banner.jpg") no-repeat center -5rem  fixed;
   background-size:cover;
   background-color: black;
   color: white;
-  min-height: 20rem;
+  min-height: 25rem;
 }
 
 .items{
