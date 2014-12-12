@@ -120,6 +120,7 @@ Modules
 
 .banner{
   background:url("../img/lucid-banner.jpg") no-repeat center -5rem  fixed;
+  background-size: 100%;
   background-size:cover;
   background-color: black;
   color: white;
