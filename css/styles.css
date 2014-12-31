@@ -73,7 +73,7 @@ Layout
 
 .main-container{
    margin:0 auto;
-   width: 90%;
+   width: 96%;
      max-width: 960px;
 }
 
@@ -119,7 +119,7 @@ Modules
 */
 
 .banner{
-  background:url("../img/lucid-banner.jpg") no-repeat center -5rem  fixed;
+  background:url("../img/lucid-banner.jpg") no-repeat -15rem -10rem  fixed;
   background-size: 100%;
   background-size:cover;
   background-color: black;
@@ -140,6 +140,7 @@ Modules
 
 .item__title{
   color:#8bc349;
+  font-size: 1rem;
   
 }
 
@@ -180,7 +181,7 @@ Modules
   background:#8bc349;
   color:white;
   display: inline-block;
-  font-size: 21px;
+  font-size: 1.3125rem;
   left:-40px;
   top:-20px;
   min-width: 100px;
@@ -242,4 +243,110 @@ States
 .fa:hover, .item__image:hover, a:hover{
  opacity:.6;
 }
+
+
+
+
+/*
+==============================================
+Media Queries
+==============================================
+*/
+
+
+
+/* Custom, iPhone Retina */ 
+  @media only screen and (min-width : 20rem) {
+    /* Base
+    ============== */
+    /* Layout
+    ============== */
+  
+    /* Module
+    ============== */
+    /* States
+    ============== */
+
+
+    
+  }
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 30rem) {
+    /* Base
+    ============== */
+    
+    /* Layout
+    ============== */
+
+    /* Module
+    ============== */
+
+  
+    /* States
+    ============== */
+  
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 48rem) {
+    /* Base
+    ============== */
+
+    /* Layout
+    ============== */
+
+ 
+
+ 
+    /* Module
+    ============== */
+
+    .banner{
+      background:url("../img/lucid-banner.jpg") no-repeat 0 -10rem  fixed;
+      background-size: 100%;
+      background-size:cover;
+    }
+
+ 
+
+  
+
+    /* States
+    ============== */
+}
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width :62rem) {
+   /* Base
+   ============== */
+   /* Layout
+   ============== */
+
+  
+   
+   /* Module
+   ============== */
+
+
+
+   /* States
+   ============== */
+
+
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 75rem) {
+    /* Base
+    ============== */
+    /* Layout
+    ============== */
+
+    /* Module
+    ============== */
+    /* States
+    ============== */
+  
+  }
 
