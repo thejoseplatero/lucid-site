@@ -122,6 +122,7 @@ Modules
   background:url("../img/lucid-banner.jpg") no-repeat center center  fixed;
   background-size: 100%;
   background-size:cover;
+  background-attachment: scroll; 
   background-color: black;
   color: white;
   min-height: 25rem;
